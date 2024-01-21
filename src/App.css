@@ -32,3 +32,28 @@ nav {
 .front-page p {
   opacity: 0.6;
 }
+
+.first-card {
+  width: 200px;
+  font-size: 0.8em;
+}
+
+.kenzie {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+}
+
+.section-1 span {
+  opacity: 0.6;
+}
+
+.first-star {
+  height: 14px;
+  align-items: center;
+}
+

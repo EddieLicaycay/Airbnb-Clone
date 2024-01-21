@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar'
 import FrontPage from './components/FrontPage'
+import ProductCard from './components/ProductCard'
+
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <FrontPage />
+      <ProductCard />
     </div>
   );
 }
