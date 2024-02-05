@@ -27,7 +27,9 @@ function App() {
     <div className="App">
       <Navbar />
       <FrontPage />
+      <div className="product-container">
       {productCard}
+      </div>
     </div>
   );
 }

@@ -33,6 +33,13 @@ nav {
   opacity: 0.6;
 }
 
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin: 10px;
+}
+
 .first-card {
   width: 200px;
   font-size: 0.8em;
