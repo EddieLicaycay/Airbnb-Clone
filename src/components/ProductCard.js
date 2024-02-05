@@ -15,7 +15,7 @@ const ProductCard = (props) => {
 
   return (
     <div className="first-card">
-      <p>Sold Out</p>
+      {props.openSpots === 0 ? <div className="sold-out-banner">SOLD OUT</div> : null || props.openSpots < 4 ? <div className="limited-slot-banner">FEW SLOTS LEFT!</div> : null}
       <img src={selectedPhoto} alt={props.img} className="img"/>
       <section className="section-1">
         <img src={star} alt="rating star" className="first-star" />

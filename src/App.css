@@ -41,13 +41,36 @@ nav {
 }
 
 .first-card {
-  width: 200px;
+  position: relative;
+  width: 300px;
   font-size: 0.8em;
 }
 
 .img {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
+}
+
+.sold-out-banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(253, 20, 20, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.limited-slot-banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(243, 236, 236, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .section-1 {
@@ -63,4 +86,5 @@ nav {
   height: 14px;
   align-items: center;
 }
+
 
